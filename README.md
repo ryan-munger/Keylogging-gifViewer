@@ -5,4 +5,4 @@ Key takeaways: caution when downloading unverified software, using a batch scrip
 
 ## Usage:
 Requirements: Windows, Python, GCC. \
-Simply run the gifViewer.bat file. All dependencies will automatically be installed. \
+Simply run the gifViewer.bat file. All dependencies will automatically be installed. 
