@@ -4,5 +4,5 @@ In this project, I gained experience with Python & C++ and learned about types o
 Key takeaways: caution when downloading unverified software, using a batch script to run the project, making a GUI and using HTTP requests. \
 
 ## Usage:
-Requirements: Windows, Python, GCC. \
+Requirements: Windows, Python, GCC. 
 Simply run the gifViewer.bat file. All dependencies will automatically be installed. 
