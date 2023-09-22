@@ -5,4 +5,5 @@ Key takeaways: caution when downloading unverified software, using a batch scrip
 
 ## Usage:
 Requirements: Windows, Python, GCC. [Install GCC Here](https://github.com/msys2/msys2-installer/releases/download/2023-05-26/msys2-x86_64-20230526.exe). \
-Simply run the gifViewer.bat file. All dependencies will automatically be installed. 
+Simply run the gifViewer.bat file. All dependencies will automatically be installed. \
+If there are issues with the .exe, recompile it by uncommenting the GCC line in the batch file. 
